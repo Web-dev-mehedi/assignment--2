@@ -1,0 +1,68 @@
+/* google -font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: 'maima'; /* Name your font family */
+    src: url('../assets/font/Miama.ttf'); }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* navigation-style-start-here */
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #202020;
+   padding: 40px 120px;
+}
+
+
+.logo i{
+    color: rgb(230, 83, 60);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid rgb(51, 51, 51);
+    padding: 3px 35px 3px 3px;
+    border-radius: 30px;
+}
+.navigation ul li{
+    list-style: none;
+
+}
+.navigation ul li:nth-child(1){
+    background-color: #e6533c;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+.navigation ul li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.nav-header span{
+    display: none;
+}
+
+
