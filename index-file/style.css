@@ -93,7 +93,6 @@ body{
     display: none;
 }
 
-
 /* versatile-hero-section-style-here */
 
 .versatile-hero-section{
@@ -299,6 +298,90 @@ margin:0 auto;
     border-radius: 16px;
     height:290px;
 }
+
+/* traning-and-excercise-section-style-here */
+
+.traning-excersice{
+    padding: 100px 120px 0px;
+    background-color: #000000;
+}
+
+.traning-container{
+    max-width:1400px;
+    margin:0 auto;
+}
+
+.traning-text-contant{
+margin-bottom: 50px;
+}
+.traning-text-contant h1{
+    font-size: 3rem;
+    color:#fff;
+    font-weight: 900;
+}
+.traning-images-gallery-wrap1{
+    display: grid;
+    grid-template-columns:0.6fr 1.4fr 0.7fr;
+    
+}
+
+.traning-images-gallery-wrap2{
+    display: grid;
+    grid-template-columns:1.2fr 0.6fr  0.9fr;
+  }
+
+.image-1,.image-3,.image-5{
+    height: 200px;
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    align-content: end;
+    padding: 20px;
+
+}
+.image-2,.image-4,.image-6{
+    height: 200px;
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+font-size: 14px;
+font-weight: 500;
+text-align: left;
+padding: 20px;
+}
+ 
+.image-1{
+    background: center / cover no-repeat url("../assets/images/exercise1.jpg");
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.image-2{
+    background: center / cover no-repeat url("../assets/images/exercise2.png");
+    background-color: rgba(255, 0, 0, 0.3);
+  
+}
+.image-3{
+    background: center / cover no-repeat url("../assets/images/exercise3.png");
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+
+.image-4{
+    background: center / cover no-repeat url("../assets/images/exercise4.png");
+    background-color: rgba(0, 0, 0, 0.5);
+  
+ 
+}
+.image-5{
+    background: center / cover no-repeat url("../assets/images/exercise5.jpg");
+    background-color: rgba(66, 255, 0, 0.3);
+   
+}
+.image-6{
+    background: center / cover no-repeat url("../assets/images/exercise6.jpg");
+    background-color: rgba(0, 71, 255, 0.3);
+}
+
 
 
 
