@@ -15,6 +15,17 @@ body{
     padding: 0;
 }
 
+
+/* default-button-hover-file*/
+
+.pricing-card-content button:hover,.bmi-right-content-wrap button:hover,.vesatile-left-contant-wrap button:hover,.extra-mile-text-wrap button:hover{
+    color: #42e9ff;
+    background-color: transparent;
+    border: 1px solid blanchedalmond;
+   
+
+  }
+
  /* button-style */
 
  .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button ,.bmi-right-content-wrap button,.pricing-card-content button{
@@ -35,7 +46,7 @@ body{
 
 /* default-paragraph-content */
 
- .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p ,.bmi-title-wrap p,.bmi-inner-text p,.traning-text-contant p ,.upper-content-wrap p,.pricing-card-content p{
+ .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p ,.bmi-title-wrap p,.bmi-inner-text p,.traning-text-contant p ,.upper-content-wrap p,.pricing-card-content p ,.footer-left p{
    text-transform: capitalize;
    color: rgba(255, 255, 255, 0.5);
    font-size: 0.9rem;
@@ -709,6 +720,71 @@ option{
         line-height: 20px;
         
     }
+
+ 
+/* footer-style-start-here */
+
+.versetile-footer{
+    padding: 66px 120px 0px;
+    background-color:rgb(26, 26, 26);
+}
+
+.footer-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.upper-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+
+}
+
+.footer-left{
+  width:calc(44% - 40px)
+}
+
+.footer-left h1{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4.2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.footer-center h3, .footer-right h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-center span, .footer-right span{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom:20px;
+    display:block;
+}
+
+.bottom-footer{
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-footer span{
+    color: rgba(255, 255, 255, 0.5);
+font-size:1.3rem;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+display: block;
+padding:35px 0px;
+}
+    
     
 
 
