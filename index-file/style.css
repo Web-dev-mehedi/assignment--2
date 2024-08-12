@@ -17,7 +17,7 @@ body{
 
  /* button-style */
 
- .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button{
+ .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button ,.bmi-right-content-wrap button{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
@@ -35,7 +35,7 @@ body{
 
 /* default-paragraph-content */
 
- .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p{
+ .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p ,.bmi-title-wrap p,.bmi-inner-text p {
    text-transform: capitalize;
    color: rgba(255, 255, 255, 0.5);
    font-size: 0.9rem;
@@ -380,6 +380,158 @@ padding: 20px;
 .image-6{
     background: center / cover no-repeat url("../assets/images/exercise6.jpg");
     background-color: rgba(0, 71, 255, 0.3);
+}
+
+
+
+
+
+
+/* bmi-section-style-start-here */
+
+.bmi-top-sub-section{
+    padding: 80px 120px 88px;
+    background: rgb(0, 0, 0);
+}
+
+.bmi-top-container{
+    max-width:1400px;
+    margin:0 auto;
+}
+
+.bmi-title-wrap{
+    width:70%;
+    margin:0 auto;
+}
+.bmi-title-wrap h1{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+}
+
+.bmi-bottom-sub-section{
+    padding: 52px 120px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-content-wrap{
+    max-width:1400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 50px;
+}
+.bmi-left-content-wrap{
+    width:50%;
+   
+   
+}
+.btn:hover{
+    overflow:hidden;
+}
+.bmi-left-content-wrap h1{
+    color: rgb(255, 255, 255);
+font-size: 1.8rem;
+font-weight: 900;
+text-align: left;
+margin-bottom: 52px;
+}
+
+
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding:15px 18px 15px;
+ 
+}
+
+table{
+    border-style: hidden; /* hide standard table (collapsed) border */
+   box-shadow: 0 0 0 1px #666; /* this draws the table border  */
+   border-radius: 5px;
+}
+
+th{
+    color: #eff5fe;
+    text-align: left;
+    font-weight: 400;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+
+}
+.bmi-right-content-wrap{
+    width:50%;
+}
+
+.bmi-inner-text{
+text-align: left;
+}
+.bmi-inner-text h3{
+    color: rgb(255, 255, 255);
+    font-size:1.7rem;
+    font-weight: 900;
+}
+
+.bmi-inner-input{
+ display: flex;
+ justify-content:start;
+ align-items:center;
+ flex-wrap: wrap;
+ gap: 12px;
+}
+.bmi-inner-input input{
+    
+    width:calc(50% - 21px);
+    padding: 15px 0px 15px 15px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+   border: none; 
+}
+
+.bmi-inner-input input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bmi-inner-input input:focus{
+    color: #ff3407;
+}
+.option1{
+    width:calc(50% - 6px);
+    padding: 15px 0px 15px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+   border: none; 
+   color: rgba(255, 255, 255, 0.6);
+   font-size: 1rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   outline: none;
+}
+.option-2{
+    width:100%;
+padding: 15px 15px 15px 15px;
+margin-bottom: 30px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+border: none; 
+color: rgba(255, 255, 255, 0.6);
+font-size: 1rem;
+font-weight: 400;
+text-transform: capitalize;
+outline: none;
+
+}
+option{
+    background: #979797;
 }
 
 
