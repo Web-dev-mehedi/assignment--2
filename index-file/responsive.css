@@ -1,0 +1,607 @@
+@media screen and (max-width:576px) {
+    .nav-header{
+       padding: 40px 30px;
+    }
+    .navigation {
+       display: none;
+    }  
+    .nav-header span{
+        display:contents;
+       color: rgb(145, 145, 145);
+       font-size:30px;
+        }
+
+.versatile-hero-section{
+        padding: 20px 30px;
+   }
+
+.versetile-hero-container{
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.vesatile-left-contant-wrap{
+    width:100%;
+ }
+ 
+ .vesatile-left-contant-wrap h1{
+  font-size: 3rem;
+ font-weight: 700;
+ margin-right: 30px;
+}
+ .versatile-right-content-wrap{
+    width:300px;
+
+}
+
+.workouts{
+    width: 120px;
+    left: 163px;
+    top:40px;
+    padding: 10px 11px;
+}
+
+.workouts h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.workouts span{
+    font-size: 0.7rem;
+}
+.tutorials {
+    width: 166px;
+    height: 62px;
+    gap:10px;
+    bottom: 125px;
+    padding: 10px;
+}
+.ver-hero-btn {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.ver-hero-btn button{
+    width:49%;
+    margin: auto;
+margin-top:15px;
+padding: 15px 20px;
+font-size: 12px;
+}
+
+.changes-your-habit{
+    padding: 0px 30px 40px;
+}
+.extra-mile-container{
+    padding:30px;
+}
+.upper-content-wrap{
+    width:100%;
+}
+.upper-content-wrap h1{
+    font-size:2rem;
+    font-weight: 700;
+}
+
+.bottom-content-wrap{
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top: 40px; 
+  }
+
+  .habit-card{
+  width:80%;
+  margin:0 auto;
+}
+
+
+.extra-mile-sec{
+    padding: 0px 30px;
+    }
+ .extra-mile-container{
+    flex-direction: column;
+     align-items: center;
+     gap:70px;
+
+    } 
+ 
+.extra-mile-text-wrap{
+    width:100%;
+  } 
+  .extra-mile-image-wrap{
+    width:100%;
+ 
+ } 
+ 
+ .extra-mile-text-wrap button{
+    width:100%;
+    margin:0 auto;
+ }
+
+ .extra-mile-image-wrap img{
+    height:240px;
+}
+
+
+.traning-excersice{
+    padding: 50px 30px;
+}
+
+.traning-images-gallery-wrap1{
+    grid-template-columns:1fr 1.2fr ;
+    
+}
+
+.traning-images-gallery-wrap2{
+    grid-template-columns: 0.9fr 1.3fr;
+  }
+.image-6,.image-3{
+    display:none;
+}
+
+.bmi-top-sub-section{
+    padding: 0px 30px 30px;
+}
+
+.bmi-title-wrap{
+    width:100%;
+}
+.bmi-title-wrap h1 {
+    font-size: 2.5rem;
+}
+.bmi-bottom-sub-section{
+    padding: 52px 30px;
+}
+
+.bmi-content-wrap{
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    gap: 50px;
+}
+.bmi-left-content-wrap h1 {
+    margin-bottom: 36px;
+}
+.bmi-left-content-wrap,.bmi-right-content-wrap{
+    width:100%;
+    margin:0 auto;
+}
+
+.meet-our-team-sec{
+    padding: 40px 30px;
+ }
+ .upper-content-wrap {
+    margin-bottom: 45px;
+}
+ .upper-content-wrap h2 {
+    font-size: 2.2rem;
+    line-height: 50px;
+}
+ .image-gellary{
+    grid-template-columns: 1fr;
+ }
+
+ .our-pricing-plan{
+    padding: 40px 30px;
+    }
+ .top-pricing-content-wrap{
+        width:100%;
+    }    
+.top-pricing-content-wrap h2{
+    font-size: 1.1rem;
+        text-align:left;
+        line-height: 30px;
+        letter-spacing: 1px;
+        }    
+.bottom-pricing-content-wrap{
+    flex-direction:column;
+     align-items:start;
+     padding:20px;
+    }
+.pricing-card-content{
+        padding:30px 30px;
+    }
+ .pricing-card-content:nth-child(1),.pricing-card-content:nth-child(2){
+       border:none; 
+     }     
+.versetile-footer{
+        padding:30px 30px 0px;
+    }
+.upper-footer{
+        flex-direction: column;
+        justify-content:center;
+        align-items:start;
+        gap: 40px; 
+}
+.footer-left{
+    width:100%;
+  }
+  
+}
+
+
+@media screen and (min-width:576px) and (max-width:776px) {
+    .nav-header{
+        padding: 40px 30px;
+     } 
+
+     .navigation ul {
+        justify-content: flex-end;
+        gap: 15px;
+        padding: 3px 25px 3px 3px;
+    }
+    .versatile-hero-section{
+        padding: 40px 30px;
+   }
+
+.versetile-hero-container{
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.vesatile-left-contant-wrap{
+    width:80%;
+ }
+ .versatile-right-content-wrap{
+    width:450px;
+}
+ .ver-hero-btn {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:40px;
+}
+.ver-hero-btn button{
+    width:49%;
+    margin: auto;
+    padding:14px 5px;
+}
+ 
+
+
+.versatile-right-content-wrap img{
+    width:100%;
+}
+
+.workouts{
+    width:170px;
+    padding: 15px 20px 15px 20px;
+    align-content: end;
+    left:240px;
+}
+
+/* .tutorials{
+   
+} */
+
+.changes-your-habit{
+    padding: 40px 30px;
+}
+
+  .upper-content-wrap{
+    width:100%;
+    margin:0 auto;
+}
+
+.bottom-content-wrap{
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top: 40px; 
+  }
+
+  .habit-card{
+  width:calc(44% - 20px);
+  margin:0 auto;
+}
+
+
+.extra-mile-sec{
+    padding: 0px 30px;
+    }
+ .extra-mile-container{
+     align-items: center;
+     gap:30px;
+     padding: 20px;
+
+    } 
+ 
+.extra-mile-text-wrap{
+    width:50%;
+  } 
+ 
+ .extra-mile-text-wrap button{
+    width:100%;
+    margin:0 auto;
+ }
+
+ .extra-mile-image-wrap{
+    width:50%;
+ 
+ } 
+ .extra-mile-image-wrap img{
+    height:70vh;
+}
+
+.traning-excersice{
+    padding: 50px 30px;
+}
+
+.bmi-top-sub-section{
+    padding: 0px 30px 30px;
+}
+
+.bmi-title-wrap{
+    width:80%;
+    margin-left: 0px;
+}
+
+.bmi-bottom-sub-section{
+    padding: 52px 30px;
+}
+
+.bmi-content-wrap{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+.bmi-left-content-wrap,.bmi-right-content-wrap{
+    width:100%;
+    margin:0 auto;
+
+}
+
+.meet-our-team-sec{
+    padding: 40px 30px;
+ }
+
+ .our-pricing-plan{
+    padding: 20px 30px 40px;
+    }
+ .top-pricing-content-wrap{
+        width:100%;
+        margin-bottom: 50px;
+    }    
+.top-pricing-content-wrap h2{
+    font-size: 1.1rem;
+        text-align:left;
+        line-height: 30px;
+        letter-spacing: 1px;
+        }    
+
+ .bottom-pricing-content-wrap{
+            flex-direction:row;
+            justify-content:space-between;
+             align-items:start;
+             gap: 20px;
+             padding:20px;
+             flex-wrap:wrap;
+     }           
+
+.pricing-card-content{
+    padding:30px 30px;
+    }
+ .pricing-card-content:nth-child(1),.pricing-card-content:nth-child(2){
+       border:none; 
+       margin:0px;
+       width:33%;
+     }     
+.pricing-card-content button{
+    padding:20px 30px;
+    margin:0px;
+}
+.versetile-footer{
+    padding:30px 30px 0px 30px;
+}
+.upper-footer{
+    flex-direction: row;
+    justify-content:start;
+    align-items:start;
+    gap: 120px; 
+    flex-wrap:wrap;
+}
+.footer-left{
+width:80%;
+}
+.footer-left p{
+    margin-bottom: 0px;
+}
+
+.footer-center{
+max-width:50% ;
+
+} 
+.footer-right{
+max-width:50%;
+}  
+    
+}
+
+@media screen and (min-width:776px) and (max-width:992px){
+    .nav-header{
+        padding: 40px 50px;
+     } 
+    .versatile-hero-section{
+        padding: 40px 50px;
+   }
+
+.versatile-right-content-wrap {
+    width: 301px;
+}  
+
+.tutorials {
+    bottom: 45px;
+}
+ .ver-hero-btn {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top:40px;
+}
+.ver-hero-btn button{
+    width:49%;
+    margin: auto;
+    padding:14px 5px;
+}
+
+.workouts{
+    width:140px;
+    left:52%;
+    top: 120px;
+
+}
+
+.workouts h2{
+font-size:2.3rem;
+
+}
+.workouts span{
+    font-size:0.8rem;
+    }
+
+/* .tutorials{
+   
+} */
+
+.changes-your-habit{
+    padding: 40px 30px;
+}
+
+  .upper-content-wrap{
+    width:100%;
+    margin:0 auto;
+}
+
+.bottom-content-wrap{
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top: 40px; 
+  }
+
+  .habit-card{
+  width:calc(44% - 20px);
+  margin:0 auto;
+}
+
+
+.extra-mile-sec{
+    padding: 0px 30px;
+    }
+ .extra-mile-container{
+     align-items: center;
+     gap:30px;
+     padding: 20px;
+
+    } 
+ 
+.extra-mile-text-wrap{
+    width:50%;
+  } 
+ 
+ .extra-mile-text-wrap button{
+    width:100%;
+    margin:0 auto;
+ }
+
+ .extra-mile-image-wrap{
+    width:50%;
+ 
+ } 
+ .extra-mile-image-wrap img{
+    height:70vh;
+}
+
+.traning-excersice{
+    padding: 50px 30px;
+}
+
+.bmi-top-sub-section{
+    padding: 0px 30px 30px;
+}
+
+.bmi-title-wrap{
+    width:80%;
+    margin-left: 0px;
+}
+
+.bmi-bottom-sub-section{
+    padding: 52px 30px;
+}
+
+.bmi-content-wrap{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+.bmi-left-content-wrap,.bmi-right-content-wrap{
+    width:100%;
+    margin:0 auto;
+
+}
+
+.meet-our-team-sec{
+    padding: 40px 30px;
+ }
+
+ .our-pricing-plan{
+    padding: 20px 30px 40px;
+    }
+ .top-pricing-content-wrap{
+        width:100%;
+        margin-bottom: 50px;
+    }    
+.top-pricing-content-wrap h2{
+    font-size: 1.1rem;
+        text-align:left;
+        line-height: 30px;
+        letter-spacing: 1px;
+        }    
+.bottom-pricing-content-wrap{
+    flex-direction:row;
+    justify-content:flex-start;
+     align-items:start;
+     padding:20px;
+     flex-wrap:wrap;
+    }
+.pricing-card-content{
+        padding:30px 30px;
+    }
+ .pricing-card-content:nth-child(1),.pricing-card-content:nth-child(2){
+       border:none; 
+     }     
+.versetile-footer{
+        padding:30px 30px 0px 30px;
+    }
+.upper-footer{
+        flex-direction: row;
+        justify-content:start;
+        align-items:start;
+        gap:140px; 
+        flex-wrap:wrap;
+}
+.footer-left{
+    width:80%;
+  }
+
+  .footer-left p{
+margin-bottom: 0px;
+  }
+
+.footer-center{
+    max-width:50% ;
+   
+ } 
+.footer-right{
+max-width:50%;
+}  
+
+}
