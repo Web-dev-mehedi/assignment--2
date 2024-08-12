@@ -12,7 +12,7 @@
         }
 
 .versatile-hero-section{
-        padding: 20px 30px;
+        padding: 20px 0px;
    }
 
 .versetile-hero-container{
@@ -22,7 +22,8 @@
 }
 
 .vesatile-left-contant-wrap{
-    width:100%;
+    width:81%;
+    padding:0px 30px;
  }
  
  .vesatile-left-contant-wrap h1{
@@ -68,7 +69,7 @@
     width:49%;
     margin: auto;
 margin-top:15px;
-padding: 15px 20px;
+padding: 15px 8px;
 font-size: 12px;
 }
 
@@ -131,7 +132,6 @@ font-size: 12px;
 
 .traning-images-gallery-wrap1{
     grid-template-columns:1fr 1.2fr ;
-    place-items: end center;
     
 }
 .image-4{
@@ -277,8 +277,6 @@ font-size: 12px;
     padding:14px 5px;
 }
  
-
-
 .versatile-right-content-wrap img{
     width:100%;
 }
@@ -289,10 +287,6 @@ font-size: 12px;
     align-content: end;
     left:240px;
 }
-
-/* .tutorials{
-   
-} */
 
 .changes-your-habit{
     padding: 40px 30px;
@@ -339,7 +333,7 @@ font-size: 12px;
  
  } 
  .extra-mile-image-wrap img{
-    height:70vh;
+    height:290px;
 }
 
 .traning-excersice{
@@ -511,7 +505,7 @@ font-size:2.3rem;
     }
  .extra-mile-container{
      align-items: center;
-     gap:30px;
+     gap:70px;
      padding: 20px;
 
     } 
@@ -527,10 +521,10 @@ font-size:2.3rem;
 
  .extra-mile-image-wrap{
     width:50%;
- 
+
  } 
  .extra-mile-image-wrap img{
-    height:70vh;
+    height:270px;
 }
 
 .traning-excersice{
@@ -618,4 +612,17 @@ margin-bottom: 0px;
 max-width:50%;
 }  
 
+}
+
+@media screen and (min-width:1300px) and (max-width:5000px) {
+    .versatile-right-content-wrap{
+        width:400px;
+     }
+    .workouts{
+        right:-70px;
+        top: 145px; 
+     }
+     .extra-mile-image-wrap img{
+        height:370px;
+    }   
 }

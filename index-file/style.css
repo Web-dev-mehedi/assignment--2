@@ -660,7 +660,10 @@ option{
     padding: 10px 120px 100px;
     background-color: #000000;
     }
-    
+.our-pricing-plan-container{
+    max-width: 1440px;
+    margin:0 auto;
+}
     .top-pricing-content-wrap{
         width:80%;
         margin:0 auto;
