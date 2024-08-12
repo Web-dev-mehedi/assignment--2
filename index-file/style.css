@@ -17,7 +17,7 @@ body{
 
  /* button-style */
 
- .vesatile-left-contant-wrap button{
+ .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
@@ -35,7 +35,7 @@ body{
 
 /* default-paragraph-content */
 
- .vesatile-left-contant-wrap p{
+ .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p{
    text-transform: capitalize;
    color: rgba(255, 255, 255, 0.5);
    font-size: 0.9rem;
@@ -206,6 +206,100 @@ font-family: 'maima';
  border-radius: 50%;
 
 }
+
+/* changes-your-habit-section-styles-starts-here */
+
+.changes-your-habit{
+    padding: 100px 120px;
+    background: rgb(0, 0, 0);
+}
+
+.habit-container{
+  max-width: 1440px;
+  margin:0 auto;
+}
+.upper-content-wrap{
+    width:70%;
+    margin:0 auto;
+}
+.upper-content-wrap h1{
+    color: rgb(255, 255, 255);
+    font-size:3rem;
+    font-weight: 900;
+    text-align:center;
+}
+
+.bottom-content-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  margin-top: 40px;
+  
+}
+
+.habit-card{
+    padding:20px;
+color: #42e9ff;
+text-align: center;
+}
+
+.habit-card h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.habit-card img{
+    width:100%;
+    border-radius: 50%;
+    border:3px solid #4e4e4e;
+    margin-bottom: 30px;
+}
+
+/* extra-mile-section-style-start-here */
+
+
+.extra-mile-sec{
+padding: 0px 120px;
+   background-color: #000000;
+}
+
+.extra-mile-container{
+  max-width:1400px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 190px;
+  background-color: #54545448;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.extra-mile-text-wrap{
+
+width:calc(50% - 50px);
+margin:0 auto;
+}
+
+.extra-mile-text-wrap h1{
+  font-size: 3rem;
+  color:#fff;
+    }
+
+.extra-mile-image-wrap{
+   width:calc(50% - 50px);
+   margin:0 auto;
+
+}
+
+.extra-mile-image-wrap img{
+    width:100%;
+    border-radius: 16px;
+    height:290px;
+}
+
 
 
 
