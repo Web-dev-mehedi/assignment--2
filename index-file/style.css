@@ -17,7 +17,7 @@ body{
 
  /* button-style */
 
- .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button ,.bmi-right-content-wrap button{
+ .vesatile-left-contant-wrap button ,.extra-mile-text-wrap button ,.bmi-right-content-wrap button,.pricing-card-content button{
     padding: 14px 40px;
     margin-right: 20px;
     color: #ffffff;
@@ -35,7 +35,7 @@ body{
 
 /* default-paragraph-content */
 
- .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p ,.bmi-title-wrap p,.bmi-inner-text p {
+ .vesatile-left-contant-wrap p ,.extra-mile-text-wrap p,.habit-card p ,.bmi-title-wrap p,.bmi-inner-text p,.traning-text-contant p ,.upper-content-wrap p,.pricing-card-content p{
    text-transform: capitalize;
    color: rgba(255, 255, 255, 0.5);
    font-size: 0.9rem;
@@ -534,6 +534,182 @@ option{
     background: #979797;
 }
 
+/* meet-our-team-style-here */
+
+.meet-our-team-sec{
+    padding: 100px 120px;
+    background-color: #000000;
+ }
+ 
+ .meet-team-container{
+     max-width:1440px;
+     margin:0 auto;
+ }
+ 
+ .upper-content-wrap{
+   text-align: center;
+   align-items: center;
+   margin-bottom: 50px;
+ }
+ 
+ .upper-content-wrap h2{
+     color: rgb(255, 255, 255);
+     font-size: 3rem;
+     font-weight: 900;
+     line-height: 90px;
+ }
+ 
+ 
+ .image-gellary{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    background: rgba(86, 86, 86, 0.2);
+    padding: 20px;
+    border-radius: 18px;
+ }
+ 
+ .images1{
+ 
+   background-image: url("../assets/images/trainer1.png");
+   background-position:center center;
+   background-repeat:no-repeat;
+   background-size: cover;
+  
+ }
+ 
+ .images2{
+  
+     background-image: url("../assets/images/trainer2.png");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .images3{ 
+     
+     background-image: url("../assets/images/trainer3.png");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .images4{
+    
+     background-image: url("../assets/images/trainer4.png");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size:cover;
+ }
+ .images5{
+  
+     background-image: url("../assets/images/trainer5.png");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .images6{
+     background-image: url("../assets/images/trainer6.png");
+     background-position:center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+ }
+ 
+ .images1 ,.images2 ,.images3 ,.images4 ,.images5 ,.images6 {
+     align-content:end;
+     border-radius: 18px;
+     height:272px;
+     width:100%;
+     margin: auto;
+ }
+ 
+ .images1 h3,.images2 h3,.images3 h3,.images4 h3,.images5 h3,.images6 h3{
+     color:rgb(255, 255, 255) ;
+      font-size: 1.4rem;
+      font-weight: 900;
+      padding-left: 20px;
+      
+      
+ 
+ }
+ 
+ .images1 span ,.images2 span ,.images3 span ,.images4 span ,.images5 span,.images6 span {
+     color:rgba(255, 255, 255, 0.5) ;
+     font-size:0.9rem;
+     font-weight: 400;
+     padding-left: 20px;
+     margin-bottom: 20px;
+     display: block;
+ 
+ }
+
+
+/* our-pricing-plan-style-here */
+
+.our-pricing-plan{
+    padding: 10px 120px 100px;
+    background-color: #000000;
+    }
+    
+    .top-pricing-content-wrap{
+        width:80%;
+        margin:0 auto;
+        margin-bottom: 90px;
+    }
+    .pricing-plan-title{
+        margin-bottom: 50px;
+    }
+    .pricing-plan-title h1{
+    color:#fff;
+    text-align: center;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    }
+    .top-pricing-content-wrap h2{
+    color: #eff5fe;
+    text-align:center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 2px;
+    }
+    
+    .bottom-pricing-content-wrap{
+    background-color:rgb(36, 20, 28) ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:50px;
+    border-radius: 10px;
+    }
+    
+    .pricing-card-content{
+        padding:10px 30px;
+    }
+    
+    .pricing-card-content:nth-child(1),.pricing-card-content:nth-child(2){
+        border-right: 1px solid rgb(105, 105, 105);
+        margin-right: 20px;
+      }
+    
+    .pricing-card-content h2{
+        text-transform: capitalize;
+        color: rgba(227, 227, 227, 0.957);
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .pricing-card-content span{
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin:20px 0px;
+        display:block;
+        line-height: 20px;
+        
+    }
+    
 
 
 
